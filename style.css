@@ -1,0 +1,112 @@
+header{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: rgb(66,57,56) */
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+}
+  
+ header ul{
+    list-style-type: none;
+    display: flex;
+    column-gap: 10px; 
+    /*flex-basis: 20%;*/
+
+} 
+.img{
+	background: url(image/istockphoto.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 80vh;
+    display: grid;
+}
+ h1{
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+
+}
+.img p{
+    text-align: center;
+    color: white;
+
+}
+p{
+    font-size: 20px;
+}
+.img .btn{
+    width: 50px;
+    height: 10%;
+    background-color: white;
+    padding: 8px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: auto;
+}
+.img span{
+    color: pink;
+}
+.do{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+}
+.do h1{
+    text-align: center;
+    color: #000;
+}
+.do article{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-basis: 20%;
+    justify-content: space-between;
+}
+.do h3{
+    text-align: center;
+}
+.do div{
+    width: 20%;
+
+}
+.help{
+    background: url(image/smile.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 80vh;
+    display: grid;
+}
+.help p{
+    color: white;
+}
+.help article{
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+
+}
+.help article div{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 10%;
+    height: fit-content;
+    margin-bottom: 70px;
+    text-align: center;
+    border: solid 2px;
+}
+.help .btn{
+    width: 80px;
+    height: 10%;
+    background-color: #f660ab;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: auto;
+}
+
